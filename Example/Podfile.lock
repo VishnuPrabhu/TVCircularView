@@ -1,0 +1,16 @@
+PODS:
+  - TVCircularView (0.1.0)
+
+DEPENDENCIES:
+  - TVCircularView (from `../`)
+
+EXTERNAL SOURCES:
+  TVCircularView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TVCircularView: 4e2284a6a393e6673af960f4459fabbd59adadbb
+
+PODFILE CHECKSUM: 64074e23fe7ff055c1fe07140b6c99dce1982790
+
+COCOAPODS: 1.12.1

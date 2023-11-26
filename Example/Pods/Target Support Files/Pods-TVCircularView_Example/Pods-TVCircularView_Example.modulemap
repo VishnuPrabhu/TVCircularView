@@ -1,0 +1,6 @@
+framework module Pods_TVCircularView_Example {
+  umbrella header "Pods-TVCircularView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TVCircularView {
+  umbrella header "TVCircularView-umbrella.h"
+
+  export *
+  module * { export * }
+}
