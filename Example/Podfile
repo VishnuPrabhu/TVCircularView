@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'TVCircularView_Example' do
-  pod 'TVCircularViec w', :path => '../'
+  pod 'TVCircularView', :path => '../'
 
   target 'TVCircularView_Tests' do
     inherit! :search_paths

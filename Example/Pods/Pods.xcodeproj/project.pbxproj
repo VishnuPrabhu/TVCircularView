@@ -7,26 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A9710C5DF7F11752DAE0FAE400CF4B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0202E8EDCF438770ADB7664D9BE2C1B7 /* TVCircularView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90549F8D999095CA0243FCA7D22F11A4 /* TVCircularView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		263D35147B6BC377F434525C5C9ED959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		273299AB2B12FF8A008BEEDB /* TVCircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273299A92B12FF8A008BEEDB /* TVCircularView.swift */; };
+		273299AC2B12FF8A008BEEDB /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273299AA2B12FF8A008BEEDB /* TestFile.swift */; };
+		2A9710C5DF7F11752DAE0FAE400CF4B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		2FF03EE1DC85DF3A85D26B53575F0FBC /* Pods-TVCircularView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0120E58516C18A7F859FA86C83CC9E56 /* Pods-TVCircularView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31829FF7EFB60AA696EE8085675D60F7 /* Pods-TVCircularView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 099C1395E3FC8AABD26AE3C0BA25677B /* Pods-TVCircularView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45ACB0B9752AC276B4B5D1D9E63D9538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		501BC9FE6B554AF22F92BF8DB2FB57A1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334F38AC5F65F722C9F1269BF447801 /* ReplaceMe.swift */; };
-		54AB273F5D20B96E488BF9C49E897FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		773362A00634A1A3FB85A9195B59C344 /* TVCircularView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A485DD89BAA83FCFBD79CF7E77C9373 /* TVCircularView-dummy.m */; };
-		A5D7B0D031FD9F00341E9EF7CAFC38B0 /* TVCircularView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D700305777FB1282C72C7E86509860 /* TVCircularView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACB0B9752AC276B4B5D1D9E63D9538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		67D3A41DE6172B57B186524DDC84B06D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		A7F58AF40A65AEEC8A9A12986690E10C /* Pods-TVCircularView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6821A8354CF6F333A98DFC386E3303F0 /* Pods-TVCircularView_Example-dummy.m */; };
 		B2B6AEAF0EFB764FE75657C373456180 /* Pods-TVCircularView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DDB1B1ED533EE68EED927A3165B67 /* Pods-TVCircularView_Tests-dummy.m */; };
+		CB7A0EBE4CC4BB5B31225C929896A649 /* TVCircularView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 249FBEDD64BD726252945CE1A7920398 /* TVCircularView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1DB85AC780DB93463CFAE6B662A48D72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B676A017E3556B89281FB1DB2A68C59;
-			remoteInfo = "Pods-TVCircularView_Example";
-		};
 		883AA0781C448E7A07FC0852F3F38544 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -34,42 +29,51 @@
 			remoteGlobalIDString = C4DF2B87F707E61623BBFF91A252CF85;
 			remoteInfo = TVCircularView;
 		};
+		A1E48BE14667E1F6CBAA74FE86EFE506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B676A017E3556B89281FB1DB2A68C59;
+			remoteInfo = "Pods-TVCircularView_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0120E58516C18A7F859FA86C83CC9E56 /* Pods-TVCircularView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TVCircularView_Example-umbrella.h"; sourceTree = "<group>"; };
 		03B4C9DA46AFF0CAF8CB39D4096985C9 /* Pods-TVCircularView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVCircularView_Example-Info.plist"; sourceTree = "<group>"; };
-		05C34C0FC7841146EDFE63012E270448 /* TVCircularView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TVCircularView.release.xcconfig; sourceTree = "<group>"; };
 		099C1395E3FC8AABD26AE3C0BA25677B /* Pods-TVCircularView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TVCircularView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0DDDF73CA51E1DBE917E013FCFDB0849 /* Pods-TVCircularView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVCircularView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		100C4BEF504DD7BE0E53C164ACE97045 /* TVCircularView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TVCircularView-Info.plist"; sourceTree = "<group>"; };
-		1334F38AC5F65F722C9F1269BF447801 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TVCircularView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		130835A525173EA7151F7AF651EDAE93 /* TVCircularView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TVCircularView.release.xcconfig; sourceTree = "<group>"; };
+		1530F41D9C10B8D0F7DBE9D076D4B8B7 /* TVCircularView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TVCircularView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1DF5938057AAF96A6E94342E4B4B56DC /* Pods-TVCircularView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVCircularView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2F2EEDC1D629170B5A7472F92BB93A32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		249FBEDD64BD726252945CE1A7920398 /* TVCircularView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TVCircularView-dummy.m"; sourceTree = "<group>"; };
+		273299A92B12FF8A008BEEDB /* TVCircularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TVCircularView.swift; path = TVCircularView/Classes/TVCircularView.swift; sourceTree = "<group>"; };
+		273299AA2B12FF8A008BEEDB /* TestFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestFile.swift; path = TVCircularView/Classes/TestFile.swift; sourceTree = "<group>"; };
 		327DE5D6244FC76D1A40DF0174D86FE2 /* Pods-TVCircularView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TVCircularView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		44D700305777FB1282C72C7E86509860 /* TVCircularView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TVCircularView-umbrella.h"; sourceTree = "<group>"; };
-		49AFA06C40BEC17CDFA22D6F99EA90DB /* TVCircularView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TVCircularView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4A485DD89BAA83FCFBD79CF7E77C9373 /* TVCircularView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TVCircularView-dummy.m"; sourceTree = "<group>"; };
+		46682D2587F4A45F30ED6E1837595F3B /* TVCircularView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TVCircularView-Info.plist"; sourceTree = "<group>"; };
 		527C8C28A0741C737BE128C9A7385AEF /* Pods-TVCircularView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVCircularView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6821A8354CF6F333A98DFC386E3303F0 /* Pods-TVCircularView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TVCircularView_Example-dummy.m"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A9B666E354A8BCE3E71F63196DD316A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7EB077F392AF9673524C16BE4439BA78 /* Pods-TVCircularView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVCircularView_Tests-Info.plist"; sourceTree = "<group>"; };
-		81814392FB4C577DE799F27753F2308D /* TVCircularView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TVCircularView.modulemap; sourceTree = "<group>"; };
 		86FFA0E24D8884708372E5BF492F73CD /* Pods-TVCircularView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TVCircularView_Tests.modulemap"; sourceTree = "<group>"; };
-		90CE2E01E31C6E566B70F4C01EDB2FB1 /* TVCircularView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TVCircularView.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90549F8D999095CA0243FCA7D22F11A4 /* TVCircularView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TVCircularView-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A14EB95EDA65CC82EF93E061F873C2AC /* Pods-TVCircularView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVCircularView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AF25708821C7D67B07956A808A7031CA /* Pods-TVCircularView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TVCircularView_Tests"; path = Pods_TVCircularView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C60C0460780F64E3ADBA454A10808BCE /* Pods-TVCircularView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TVCircularView_Example"; path = Pods_TVCircularView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7172D250C130781699C40900C803CF6 /* TVCircularView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TVCircularView-prefix.pch"; sourceTree = "<group>"; };
-		CE6BF6F1CAD576967843216EE5CCFC75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AF204367909C12A3316CFEB936289461 /* TVCircularView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TVCircularView-prefix.pch"; sourceTree = "<group>"; };
+		AF25708821C7D67B07956A808A7031CA /* Pods_TVCircularView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVCircularView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD62B50ADC8A3D9FC78212BEBBF3673C /* TVCircularView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TVCircularView.modulemap; sourceTree = "<group>"; };
+		C60C0460780F64E3ADBA454A10808BCE /* Pods_TVCircularView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVCircularView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D59DDB1B1ED533EE68EED927A3165B67 /* Pods-TVCircularView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TVCircularView_Tests-dummy.m"; sourceTree = "<group>"; };
 		D79CCB04FD2A2BD25BD499608751F6A7 /* Pods-TVCircularView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TVCircularView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DC9B143104EC1730E185DBA16D0A0562 /* Pods-TVCircularView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVCircularView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E0E6055215F2D72DC2C8D752FF08D3A0 /* TVCircularView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TVCircularView; path = TVCircularView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E6055215F2D72DC2C8D752FF08D3A0 /* TVCircularView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TVCircularView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EC67793F3BA1CFBD884BAA1168132AEF /* Pods-TVCircularView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVCircularView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ECDE23E960423284C510417134BCDECE /* TVCircularView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TVCircularView.debug.xcconfig; sourceTree = "<group>"; };
 		ECEFC8E233607F24EE2AB07413D9FD48 /* Pods-TVCircularView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TVCircularView_Example.modulemap"; sourceTree = "<group>"; };
 		EEDB2369AE920E55441E46767D045AF7 /* Pods-TVCircularView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVCircularView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F2A860E9A60B1FB44914D7F853E20E59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +85,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE10D8810573D8E5C33E4A06097402F2 /* Frameworks */ = {
+		AAB8342B8ACCF39FF47995FF88481819 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54AB273F5D20B96E488BF9C49E897FB9 /* Foundation.framework in Frameworks */,
+				67D3A41DE6172B57B186524DDC84B06D /* Foundation.framework in Frameworks */,
+				263D35147B6BC377F434525C5C9ED959 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,54 +105,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		45A967E62F8CC24D64C6EEC449935F30 /* TVCircularView */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1334F38AC5F65F722C9F1269BF447801 /* ReplaceMe.swift */,
-				D5491DAB29AAE4BCF772D20799C299FA /* Pod */,
-				678045378DD7ED87964C64676B55829A /* Support Files */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
-			name = TVCircularView;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4EAF025A6D8302B7DFD07B9107974214 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C60C0460780F64E3ADBA454A10808BCE /* Pods-TVCircularView_Example */,
-				AF25708821C7D67B07956A808A7031CA /* Pods-TVCircularView_Tests */,
-				E0E6055215F2D72DC2C8D752FF08D3A0 /* TVCircularView */,
+				C60C0460780F64E3ADBA454A10808BCE /* Pods_TVCircularView_Example.framework */,
+				AF25708821C7D67B07956A808A7031CA /* Pods_TVCircularView_Tests.framework */,
+				E0E6055215F2D72DC2C8D752FF08D3A0 /* TVCircularView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		678045378DD7ED87964C64676B55829A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				81814392FB4C577DE799F27753F2308D /* TVCircularView.modulemap */,
-				4A485DD89BAA83FCFBD79CF7E77C9373 /* TVCircularView-dummy.m */,
-				100C4BEF504DD7BE0E53C164ACE97045 /* TVCircularView-Info.plist */,
-				C7172D250C130781699C40900C803CF6 /* TVCircularView-prefix.pch */,
-				44D700305777FB1282C72C7E86509860 /* TVCircularView-umbrella.h */,
-				90CE2E01E31C6E566B70F4C01EDB2FB1 /* TVCircularView.debug.xcconfig */,
-				05C34C0FC7841146EDFE63012E270448 /* TVCircularView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TVCircularView";
 			sourceTree = "<group>";
 		};
 		71FD548E51689374B0B6EE96356E0A8A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				45A967E62F8CC24D64C6EEC449935F30 /* TVCircularView */,
+				E082664116341EBFC541B30885F98E5B /* TVCircularView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -169,33 +157,42 @@
 			path = "Target Support Files/Pods-TVCircularView_Example";
 			sourceTree = "<group>";
 		};
+		8BA5F8FDAB11B97C448A1D3A26E1B5F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD62B50ADC8A3D9FC78212BEBBF3673C /* TVCircularView.modulemap */,
+				249FBEDD64BD726252945CE1A7920398 /* TVCircularView-dummy.m */,
+				46682D2587F4A45F30ED6E1837595F3B /* TVCircularView-Info.plist */,
+				AF204367909C12A3316CFEB936289461 /* TVCircularView-prefix.pch */,
+				90549F8D999095CA0243FCA7D22F11A4 /* TVCircularView-umbrella.h */,
+				ECDE23E960423284C510417134BCDECE /* TVCircularView.debug.xcconfig */,
+				130835A525173EA7151F7AF651EDAE93 /* TVCircularView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TVCircularView";
+			sourceTree = "<group>";
+		};
+		A34B0D4ABEF81D6FE178E50346F1158C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				273299AA2B12FF8A008BEEDB /* TestFile.swift */,
+				273299A92B12FF8A008BEEDB /* TVCircularView.swift */,
+				7A9B666E354A8BCE3E71F63196DD316A /* LICENSE */,
+				F2A860E9A60B1FB44914D7F853E20E59 /* README.md */,
+				1530F41D9C10B8D0F7DBE9D076D4B8B7 /* TVCircularView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				71FD548E51689374B0B6EE96356E0A8A /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				4EAF025A6D8302B7DFD07B9107974214 /* Products */,
 				DEFCF95DD62978C51A80D981A9DBF796 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D5491DAB29AAE4BCF772D20799C299FA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CE6BF6F1CAD576967843216EE5CCFC75 /* LICENSE */,
-				2F2EEDC1D629170B5A7472F92BB93A32 /* README.md */,
-				49AFA06C40BEC17CDFA22D6F99EA90DB /* TVCircularView.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		D916D559034EB9808C709D340151F3C1 /* Pods-TVCircularView_Tests */ = {
@@ -223,14 +220,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E082664116341EBFC541B30885F98E5B /* TVCircularView */ = {
+			isa = PBXGroup;
+			children = (
+				A34B0D4ABEF81D6FE178E50346F1158C /* Pod */,
+				8BA5F8FDAB11B97C448A1D3A26E1B5F5 /* Support Files */,
+			);
+			name = TVCircularView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B02C0A3A30345D516C72182D1722D5D /* Headers */ = {
+		6EF9AF71C3325102DE7B5E0440E747FE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D7B0D031FD9F00341E9EF7CAFC38B0 /* TVCircularView-umbrella.h in Headers */,
+				0202E8EDCF438770ADB7664D9BE2C1B7 /* TVCircularView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +276,7 @@
 			);
 			name = "Pods-TVCircularView_Example";
 			productName = Pods_TVCircularView_Example;
-			productReference = C60C0460780F64E3ADBA454A10808BCE /* Pods-TVCircularView_Example */;
+			productReference = C60C0460780F64E3ADBA454A10808BCE /* Pods_TVCircularView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8EE10247F46A8D04181693B835CB3C64 /* Pods-TVCircularView_Tests */ = {
@@ -284,21 +291,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				6C3FB808461CA0BD04ECC86196450282 /* PBXTargetDependency */,
+				353AE82ABA6E39B0BF1B83B43EF41D50 /* PBXTargetDependency */,
 			);
 			name = "Pods-TVCircularView_Tests";
 			productName = Pods_TVCircularView_Tests;
-			productReference = AF25708821C7D67B07956A808A7031CA /* Pods-TVCircularView_Tests */;
+			productReference = AF25708821C7D67B07956A808A7031CA /* Pods_TVCircularView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C4DF2B87F707E61623BBFF91A252CF85 /* TVCircularView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000A0C25E218B41A6514EC4883FDA9F3 /* Build configuration list for PBXNativeTarget "TVCircularView" */;
+			buildConfigurationList = E55C9C273DB180EC468CC93C9AFD8038 /* Build configuration list for PBXNativeTarget "TVCircularView" */;
 			buildPhases = (
-				1B02C0A3A30345D516C72182D1722D5D /* Headers */,
-				AE922D88BCB8EDD70D23921A5B59B57C /* Sources */,
-				BE10D8810573D8E5C33E4A06097402F2 /* Frameworks */,
-				79170F4D68ED58CF90B15604432B7220 /* Resources */,
+				6EF9AF71C3325102DE7B5E0440E747FE /* Headers */,
+				CD34210EA1034DB0C92A09D6EED396A4 /* Sources */,
+				AAB8342B8ACCF39FF47995FF88481819 /* Frameworks */,
+				1AB426F3744D86AA3EA8C5481827C055 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -306,7 +313,7 @@
 			);
 			name = TVCircularView;
 			productName = TVCircularView;
-			productReference = E0E6055215F2D72DC2C8D752FF08D3A0 /* TVCircularView */;
+			productReference = E0E6055215F2D72DC2C8D752FF08D3A0 /* TVCircularView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,6 +324,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C4DF2B87F707E61623BBFF91A252CF85 = {
+						LastSwiftMigration = "";
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,14 +351,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5E6AC655A0172AAEFF89D6FC9C8A0B42 /* Resources */ = {
+		1AB426F3744D86AA3EA8C5481827C055 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79170F4D68ED58CF90B15604432B7220 /* Resources */ = {
+		5E6AC655A0172AAEFF89D6FC9C8A0B42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,15 +383,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE922D88BCB8EDD70D23921A5B59B57C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				501BC9FE6B554AF22F92BF8DB2FB57A1 /* ReplaceMe.swift in Sources */,
-				773362A00634A1A3FB85A9195B59C344 /* TVCircularView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B8B45E71704F323876A307E575C38F13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,14 +391,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD34210EA1034DB0C92A09D6EED396A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273299AC2B12FF8A008BEEDB /* TestFile.swift in Sources */,
+				CB7A0EBE4CC4BB5B31225C929896A649 /* TVCircularView-dummy.m in Sources */,
+				273299AB2B12FF8A008BEEDB /* TVCircularView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6C3FB808461CA0BD04ECC86196450282 /* PBXTargetDependency */ = {
+		353AE82ABA6E39B0BF1B83B43EF41D50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TVCircularView_Example";
 			target = 4B676A017E3556B89281FB1DB2A68C59 /* Pods-TVCircularView_Example */;
-			targetProxy = 1DB85AC780DB93463CFAE6B662A48D72 /* PBXContainerItemProxy */;
+			targetProxy = A1E48BE14667E1F6CBAA74FE86EFE506 /* PBXContainerItemProxy */;
 		};
 		A18A972AFB7EEDBDA97D96B5DCAC47F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -422,7 +435,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TVCircularView_Tests/Pods-TVCircularView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TVCircularView_Tests/Pods-TVCircularView_Tests.modulemap";
@@ -433,6 +446,39 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BF44E296E8416D82ED12ED20A96984C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130835A525173EA7151F7AF651EDAE93 /* TVCircularView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TVCircularView/TVCircularView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TVCircularView/TVCircularView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TVCircularView/TVCircularView.modulemap";
+				PRODUCT_MODULE_NAME = TVCircularView;
+				PRODUCT_NAME = TVCircularView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -456,7 +502,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TVCircularView_Tests/Pods-TVCircularView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TVCircularView_Tests/Pods-TVCircularView_Tests.modulemap";
@@ -467,6 +513,39 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3922401EDB3BA7B64402B37F62D0836E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDE23E960423284C510417134BCDECE /* TVCircularView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TVCircularView/TVCircularView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TVCircularView/TVCircularView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TVCircularView/TVCircularView.modulemap";
+				PRODUCT_MODULE_NAME = TVCircularView;
+				PRODUCT_NAME = TVCircularView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -528,73 +607,9 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		90460395418B840B935AF16BE2CEC6B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90CE2E01E31C6E566B70F4C01EDB2FB1 /* TVCircularView.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TVCircularView/TVCircularView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TVCircularView/TVCircularView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TVCircularView/TVCircularView.modulemap";
-				PRODUCT_MODULE_NAME = TVCircularView;
-				PRODUCT_NAME = TVCircularView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AD1424B886ED292E5DA12E487EAC535B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05C34C0FC7841146EDFE63012E270448 /* TVCircularView.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TVCircularView/TVCircularView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TVCircularView/TVCircularView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TVCircularView/TVCircularView.modulemap";
-				PRODUCT_MODULE_NAME = TVCircularView;
-				PRODUCT_NAME = TVCircularView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -614,7 +629,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TVCircularView_Example/Pods-TVCircularView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TVCircularView_Example/Pods-TVCircularView_Example.modulemap";
@@ -647,7 +662,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TVCircularView_Example/Pods-TVCircularView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TVCircularView_Example/Pods-TVCircularView_Example.modulemap";
@@ -734,15 +749,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		000A0C25E218B41A6514EC4883FDA9F3 /* Build configuration list for PBXNativeTarget "TVCircularView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90460395418B840B935AF16BE2CEC6B6 /* Debug */,
-				AD1424B886ED292E5DA12E487EAC535B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -766,6 +772,15 @@
 			buildConfigurations = (
 				3241F6E8FA5B2AE5BD084E8F45A03EF2 /* Debug */,
 				08687856A707B9146154E9C392A664FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55C9C273DB180EC468CC93C9AFD8038 /* Build configuration list for PBXNativeTarget "TVCircularView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3922401EDB3BA7B64402B37F62D0836E /* Debug */,
+				1BF44E296E8416D82ED12ED20A96984C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
